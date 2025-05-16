@@ -39,7 +39,7 @@ h2 {
 #home {
     background-color: black;
     background-size: cover;
-    background-image: url("/empresatech/assets/imgs/bgs/bg1.jpg");
+    background-image: url("/assets/imgs/bgs/bg1.jpg");
     color: white;
     text-align: center;
     min-height: 100vh;
@@ -201,7 +201,7 @@ h2 {
     color: white;
     padding-top: 70px;
     padding-bottom: 70px;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/empresatech/assets/imgs/bgs/bg2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/imgs/bgs/bg2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -267,7 +267,7 @@ h2 {
     color: white;
     padding-top: 70px;
     padding-bottom: 70px;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/empresatech/assets/imgs/bgs/bg3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/imgs/bgs/bg3.jpg");
     background-size: cover;
     background-position: center;
 }
