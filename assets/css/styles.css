@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+.navbar-nav {
+    padding: 7px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+
+.navbar-nav li {
+    margin-right: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.content {
+    padding: 0 200px 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+#home {
+    background-color: black;
+    background-size: cover;
+    background-image: url("/empresatech/assets/imgs/bgs/bg1.jpg");
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 250px;
+    align-items: center;
+}
+
+#home .text1 {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 25px;
+    margin-bottom: 20px;
+    animation: typing 2.5s steps(12), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 40%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#home p {
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+
+
+.intro-text h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.btn-contact {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    transition: all 400ms;
+    border: solid 1px white;
+    margin-top: 200px;
+}
+
+.btn-contact:hover {
+
+    color: white;
+    background: transparent;
+    cursor: pointer;
+
+
+}
+
+#sobre {
+    min-height: 100vh;
+    background-image: url('assets/imgs/bg4.jpg');
+    background-size: cover;
+
+}
+
+.icons1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    animation: float 2.5s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(-0.2rem);
+    }
+
+    50% {
+        transform: translateY(-0.8rem);
+    }
+}
+
+.icons1 img {
+    margin-right: 30px;
+}
+
+.text-sobre {
+    width: 50%;
+    font-weight: 500;
+    color: #222;
+    text-align: justify;
+}
+
+.text-sobre h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.card-sobre {
+    padding: 40px;
+    background: transparent;
+    border: solid #222 1px;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    text-align: start;
+    box-shadow: 0px 3px 10px #222;
+}
+
+.card-sobre h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-sobre ul {
+    list-style: none;
+    text-align: justify;
+    padding: 0;
+}
+
+.card-sobre ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+}
+
+.icons2 {
+    text-align: center;
+    margin-top: 50px;
+    animation: float 2.5s ease-in-out infinite;
+
+}
+
+.icons2 img {
+    margin-right: 30px;
+}
+
+#servico-web {
+    background: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/empresatech/assets/imgs/bgs/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-web {
+    width: 50%;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+    align-self: center;
+}
+
+.text-web h2 {
+    font-weight: 700;
+    color: white;
+    text-align: end;
+    margin-bottom: 30px;
+}
+
+.card-web {
+    padding: 40px;
+    background: transparent;
+    border: solid rgb(68, 64, 64) 1px;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgb(51, 50, 50);
+
+}
+
+.card-web h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-web ul {
+    list-style: none;
+    text-align: justify;
+    padding: 0;
+}
+
+.card-web ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+}
+
+.icons-gen {
+    text-align: center;
+    margin-top: 30px;
+    animation: float 2.5s ease-in-out infinite;
+
+}
+
+.icons-gen img {
+    margin-right: 30px;
+}
+
+#servico-desk-mob {
+    background: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/empresatech/assets/imgs/bgs/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-desk {
+    width: 50%;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+    align-self: center;
+}
+
+.text-desk h2 {
+    font-weight: 700;
+    color: white;
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.card-desk {
+    padding: 40px;
+    background: transparent;
+    border: solid rgb(68, 64, 64) 1px;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgb(51, 50, 50);
+
+}
+
+.card-desk h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-desk ul {
+    list-style: none;
+    text-align: justify;
+    padding: 0;
+}
+
+.card-desk ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+}
+
+.formulario {
+    border: solid 1px #222;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: start;
+    width: 50%;
+    box-shadow: 0px 3px 10px #222;
+}
+
+.formulario h2 {
+    text-align: start;
+    justify-content: start;
+    font-weight: 600;
+    font-size: 18;
+    margin-bottom: 8px;
+    padding-bottom: 20px;
+
+}
+
+.formulario button {
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.clientes {
+    padding: 30px 300px;
+
+}
+
+.clientes h2 {
+    text-transform: upper;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.imgs-clientes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tabela {
+    width: 50%;
+
+    align-self: center;
+
+}
+
+.tabela table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+
+.tabela table thead {
+    background-color: #222;
+    color: white;
+
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #555353;
+}
+
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background-color: #f0f8ff
+}
+
+section {
+    padding: 40px 0 40px 0;
+    text-align: center;
+
+    min-height: 100vhs;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+
+}
+
+footer ul li a:hover {
+
+    color: #f39c12;
+}
+
+@media (max-width:576px) {
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+
+    #home {
+        padding: 10px 40px;
+    }
+
+    #home label{
+        width: 100%;
+        font-size: 12px;
+        animation: none;
+        padding: 0 30px;
+
+    }
+
+    .intro-text h1 {
+        font-size: 50px;
+    }
+
+    section {
+        padding: 40px 0 40px 0;
+    }
+
+    .home-content {
+        padding: 0 20px 0 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+
+    .text-sobre {
+        width: 80%;
+        text-align: justify;
+        align-self: center;
+    }
+    .text-sobre h2{
+        text-align: center;
+    }
+
+
+    .text-web {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .text-desk {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .clientes {
+        text-align: center;
+        padding: 0;
+    }
+
+    .imgs-clientes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .formulario {
+        width: 90%;
+        align-self: center;
+        text-align: center;
+    }
+    .formulario h2{
+        text-align: center;
+    }
+
+    .tabela {
+        width: 90%;
+    }
+
+
+
+}
+
+@media (max-width:800px) {
+
+
+    #home {
+        padding: 10px 40px;
+    }
+
+    #home .text1 {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .intro-text h1 {
+        font-size: 50px;
+    }
+
+    section {
+        padding: 40px 0 40px 0;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+
+
+    .text-sobre {
+        width: 80%;
+        text-align: justify;
+        align-self: center;
+    }
+
+    .text-web {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .text-desk {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .clientes {
+        text-align: center;
+        padding: 0;
+    }
+
+    .imgs-clientes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .formulario {
+        width: 90%;
+        align-self: center;
+    }
+    .formulario h2{
+        text-align: center;
+    }
+
+    .tabela {
+        width: 90%;
+    }
+
+
+
+}

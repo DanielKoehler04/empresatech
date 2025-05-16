@@ -1,0 +1,10 @@
+@media (max-width:480px) {
+    #home p{
+        color:black;
+    }
+    #home .text1{
+         width: 100%;
+         
+    }
+    
+}
